@@ -15,7 +15,7 @@ function Navbar() {
           <Link to="/main1">Main #1</Link>
           <Link to="/main2">Main #2</Link>
         </div>
-      </nav>
+      </nav> 
       <Routes>
         <Route exact path="/main1" element={<Main />} />
         <Route exact path="/main2" element={<Main2 />} />
