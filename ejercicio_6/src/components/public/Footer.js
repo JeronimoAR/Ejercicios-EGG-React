@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer>
         <p>{year} Copyright &copy; Jero React-App</p>
-      <img src={logo} className="App-logo" alt="logo" />
+      <img src={logo} className="footer-logo" alt="logo" />
     </footer>
   );
 }
