@@ -15,6 +15,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 nav {
   position: fixed;
   top: 0;
@@ -59,16 +60,21 @@ footer {
   align-items: center;
 }
 
-.navLinks{
-  display: flex;
-  align-items: center;
+#root{
+  width: 100%;
 }
 
-.logoLink{
+.navLinks {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.logoLink {
   max-width: 16%;
 }
 
-.home-btn{
+.home-btn {
   color: white;
   text-decoration: none;
   width: fit-content;
@@ -91,7 +97,7 @@ footer {
   width: 250px;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  color: #C2C2C2;
+  color: #c2c2c2;
   font-size: 20px;
 }
 
@@ -100,7 +106,7 @@ footer {
 }
 .navBtns button {
   margin: 0 4px 0 4px;
-  width: 90px;
+  width: 85px;
   height: 40px;
 }
 
@@ -150,6 +156,51 @@ footer {
 
 .card-body {
   margin: 15px;
+}
+
+.card-body a {
+  margin-left: 200px;
+}
+
+.card-btn {
+  font-size: 12px;
+  border: transparent;
+  border-radius: 10px;
+}
+
+.card-details {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 7px 0px;
+  border-radius: 15px;
+}
+
+.details-head{
+  height: 300px;
+}
+
+.details-head img{
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.details-body{
+  margin: 0 10px 0 5px;
+}
+
+.details-body h1{
+  border-bottom: 1px solid black;
+  width: fit-content;
+}
+
+.details-btn{
+  height: 30px;
+  font-size: 13px;
+  border: transparent;
 }
 
 .App {
