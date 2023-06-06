@@ -22,8 +22,8 @@ export default function Navbar() {
           placeholder="Search"
         />
         <div className="navBtns">
-          <button className="logIn">Log in</button>
-          <button className="signUp">Sign up</button>
+          <Link to="/User/Login"><button className="logIn">Log in</button></Link>
+          <Link to="/User/Register"><button className="signUp">Sign up</button></Link>
         </div>
       </div>
     </nav>
